@@ -1,0 +1,225 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 1.5% 5% ;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ /* Title Section */
+
+   /* Navbar */
+
+nav {
+    margin: 0rem 0rem 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.8rem ;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 13px;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    height: 600px;
+    padding: 2% 10%;
+    padding-bottom: 30%; 
+}
+
+.title-img {
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    transform: rotate(25deg);   
+    top: 20%;
+}
+
+.title-text {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 50px 7px 10px;
+}
+
+/* Features */
+
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 25px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    color: #fff;
+    height: 400px;
+    background-color: #ef8172;
+} 
+
+.testimonial-text {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    border-radius: 100% ;
+    margin: 20px;
+    width: 10%;
+}
+
+/* Carousel */
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.quotes {
+    color: #B2B2B2;
+}
+/* Presss section */
+
+#press {
+    background-color: #ef8172 ;
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+}
+
+.creds-logos
+{
+    width: 10%;
+    margin: 10px 20px 30px ;
+}
+
+/* Pricing */
+
+#pricing {
+    margin-top: 7%;
+    padding: 40px;
+
+}
+
+.price-cards {
+    height: 340px;
+    margin: 5% 5%;
+ }
+
+ .cards-deck {
+    margin: 3% 5%;
+ }
+
+ .signup-btn {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+   
+ }
+
+ /* Call to Action */
+
+ #cta {
+    
+    background-color: #ff4c68;
+    padding: 7% 15%;
+ }
+ .cta-text {
+    font: 'Montserrat-Black';
+    font-weight: bold;
+    color: #fff;
+    font-size: 3.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+ /* Footer */
+
+ #footer {
+    background-color: #fff;
+    margin-top: 5%;
+    height: 50px;
+ }
+
+ .copyright-text {
+    padding-top: 2%;
+    padding-bottom: 5%; 
+    color: #65647C; 
+    font-size: 1rem;
+ }
+
+
+@media (max-width: 1076px){
+
+    #title {
+        height: 1100px;
+        text-align: center;
+    }
+
+    #features {
+        position: static;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 280px;     
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #features {
+        position: static;
+    }
+
+    .creds-logos
+    {
+        width: 100px;
+    }
+ }
